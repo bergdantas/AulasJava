@@ -30,9 +30,9 @@ public class Main {
 /**
  * Método para calcular o maior valor entre 3 números
  * 
- * @param a
- * @param b
- * @param c
+ * @param int a
+ * @param int b
+ * @param int c
  * @return MAX(a, b, c);
  */
 	private static int maiorNumero(int a, int b, int c) {

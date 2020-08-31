@@ -38,7 +38,7 @@ public class ContaCorrente {
 /**
  * Método usado para fazer o saque
  * 
- * @param valor
+ * @param double valor
  */
 	public void fazerSaque(double valor) {
 		saldo -= valor + TAXA;		

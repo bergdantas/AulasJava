@@ -37,7 +37,7 @@ public class Main {
 //REMOVER VALOR DA LISTA 
 		listInt.remove(4); //POS (se for string, "Nome" apara o campo com valor "Nome")
 		System.out.println(listInt);
-		listInt.removeIf(x -> x<10); //funcao lambda (predicado se retorna v ou f)
+		listInt.removeIf(x -> x<10); //funcao lambda (predicado que retorna v ou f)
 		System.out.println(listInt);
 		
 //BUSCA NA LISTA
