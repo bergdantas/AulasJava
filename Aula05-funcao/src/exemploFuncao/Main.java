@@ -12,7 +12,9 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-//ENTRADA DE DADOS
+
+		
+		//ENTRADA DE DADOS
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite um número");
 		int a=entrada.nextInt();
@@ -21,20 +23,24 @@ public class Main {
 		System.out.println("Digite um número");		
 		int c=entrada.nextInt();
 		
+		
+		//CHAMADA DA FUNÇÃO
 		int d = maiorNumero(a, b, c);
+		
 		System.out.println(d);
 		
 		entrada.close();
-	}
+	}	
 	
-/**
- * Método para calcular o maior valor entre 3 números
- * 
- * @param int a
- * @param int b
- * @param int c
- * @return MAX(a, b, c);
- */
+	
+	/**
+	 * Método para calcular o maior valor entre 3 números
+	 * 
+	 * @param int a
+	 * @param int b
+	 * @param int c
+	 * @return MAX(a, b, c);
+	 */
 	private static int maiorNumero(int a, int b, int c) {
 		if (a>=b) {
 			if(a>=c) {
